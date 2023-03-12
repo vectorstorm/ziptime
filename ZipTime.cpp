@@ -17,8 +17,8 @@
  * Zip tool to remove dynamic timestamps
  */
 #include "ZipFile.h"
-#include <stdlib.h>
-#include <stdio.h>
+#include <cstdlib>
+#include <cstdio>
 using namespace android;
 static void usage(void)
 {

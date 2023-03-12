@@ -19,10 +19,10 @@
 //
 
 #include "ZipEntry.h"
-#include <stdio.h>
-#include <string.h>
-#include <assert.h>
-#include <inttypes.h>
+#include <cinttypes>
+#include <cstdio>
+#include <cstring>
+#include <cassert>
 using namespace android;
 #define LOG(...) fprintf(stderr, __VA_ARGS__)
 /* Jan 01 2008 */

@@ -17,11 +17,11 @@
 // Access to Zip archives.
 //
 #include "ZipFile.h"
+#include <cinttypes>
 #include <memory.h>
 #include <sys/stat.h>
-#include <errno.h>
-#include <assert.h>
-#include <inttypes.h>
+#include <cerrno>
+#include <cassert>
 using namespace android;
 #define LOG(...) fprintf(stderr, __VA_ARGS__)
 /*
